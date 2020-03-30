@@ -224,7 +224,7 @@ argument names between parentheses:
     public class Main : Node
     {
         [Signal]
-        public delegate void MySignal();
+        public delegate void MySignal(string value, bool otherValue);
     }
 
 .. note::
